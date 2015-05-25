@@ -1,12 +1,5 @@
 REPORTER = spec
 
-all:    build
-
-build:
-	@./node_modules/coffee-script/bin/coffee \
-    -c \
-    -o lib src
-
 test-tdd:
 	@./node_modules/.bin/mocha \
     --reporter $(REPORTER) \
@@ -30,5 +23,3 @@ test-bdd-coffee:
 
 
 test-all:   test-bdd test-bdd-coffee
-
-.PHONY: test-all
