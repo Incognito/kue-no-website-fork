@@ -1,3 +1,11 @@
+1.0.0 / 2015-05-25
+===================
+
+* Forks original Kue repo
+* Breaks backwards compatability by removing website
+* Weakens contract by removing request-type-guarding middleware
+
+
 0.9.3 / 2015-05-07
 ===================
 

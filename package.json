@@ -1,8 +1,7 @@
 {
-  "name": "kue",
-  "version": "0.9.3",
-  "description": "Feature rich priority job queue backed by redis",
-  "homepage": "http://learnboost.github.com/kue/",
+  "name": "kue-no-website-fork",
+  "version": "1.0.0",
+  "description": "Version of Kue which removes the website",
   "keywords": [
     "job",
     "queue",
@@ -10,19 +9,23 @@
     "redis"
   ],
   "license": "MIT",
-  "author": "TJ Holowaychuk <tj@learnboost.com>",
+  "author": "Brian Graham",
   "contributors": [
     {
       "name": "Behrad Zari",
       "email": "behradz@gmail.com"
+    },
+    {
+      "name": "TJ Holowaychuk",
+      "email": "tj@learnboost.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/LearnBoost/kue.git"
+    "url": "https://github.com/Incognito/kue-no-website-fork.git"
   },
   "bugs": {
-    "url": "https://github.com/LearnBoost/kue/issues"
+    "url": "https://github.com/Incognito/kue-no-website-fork"
   },
   "dependencies": {
     "body-parser": "^1.12.2",
